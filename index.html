@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title></title>
+    <style>
+        .top {
+            height: 200px;
+            background-color: #000fff;
+        }
+        .body {
+            height: 1500px;
+            color:#fff;
+            position:relative;
+        }
+        .footer {
+            height: 200px;
+            background-color: #f0f;
+            margin:60px 0 0 0;
+        }
+        .slider {
+            height: 700px;
+            background-color: #f00f00;
+            width: 200px;
+            float: right;
+        }
+        body {
+            width:500px;
+        }
+    </style>
+</head>
+<body>
+<div class="top"></div>
+<div class="body">
+    <div class="slider"></div>
+</div>
+<div class="footer"></div>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="verticalSlider.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".slider").vs($(".footer"));
+    });
+</script>
+</body>
+</html>
