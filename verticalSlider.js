@@ -3,6 +3,9 @@
  * URL: http://github.com/zimny/verticalSlider/
  * Date: 21.10.12
  * Time: 18:16
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 (function ($, window, undefined) {
     $.fn.vs = function () {
